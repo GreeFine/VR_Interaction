@@ -1,0 +1,652 @@
+﻿Log file open, 12/21/17 14:29:48
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: VR_Interaction
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1329590500) SRandInit(1329590500).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.154033
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.21-13.29.49:034][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.21-13.29.49:034][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.21-13.29.49:044][  0]LogInit: Computer: DESKTOP-E1AJGMH
+[2017.12.21-13.29.49:044][  0]LogInit: User: Hubinnovation
+[2017.12.21-13.29.49:044][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.21-13.29.49:044][  0]LogInit: High frequency timer resolution =3.914059 MHz
+[2017.12.21-13.29.49:044][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.12.21-13.29.49:044][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.21-13.29.49:044][  0]LogMemory: Process Physical Memory: 279.88 MB used, 279.88 MB peak
+[2017.12.21-13.29.49:044][  0]LogMemory: Process Virtual Memory: 282.67 MB used, 282.67 MB peak
+[2017.12.21-13.29.49:044][  0]LogMemory: Physical Memory: 6121.54 MB used,  10182.79 MB free, 16304.32 MB total
+[2017.12.21-13.29.49:044][  0]LogMemory: Virtual Memory: 677.36 MB used,  10182.79 MB free, 134217728.00 MB total
+[2017.12.21-13.29.49:166][  0]LogInit: Using OS detected language (fr-FR).
+[2017.12.21-13.29.49:166][  0]LogInit: Using OS detected locale (fr-FR).
+[2017.12.21-13.29.49:168][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
+[2017.12.21-13.29.49:169][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the locale.
+[2017.12.21-13.29.49:718][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.21-13.29.49:755][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.12.21-13.29.49:755][  0]LogD3D11RHI:       8100/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2017.12.21-13.29.49:756][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.21-13.29.49:756][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.21-13.29.49:756][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.21-13.29.49:759][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.21-13.29.49:759][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.21-13.29.49:759][  0]LogWindows: EnumDisplayDevices:
+[2017.12.21-13.29.49:759][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.12.21-13.29.49:760][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.12.21-13.29.49:760][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.12.21-13.29.49:760][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.21-13.29.49:760][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.12.21-13.29.49:760][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.12.21-13.29.49:760][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2017.12.21-13.29.49:760][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2017.12.21-13.29.49:760][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.21-13.29.49:786][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.21-13.29.49:821][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.21-13.29.49:949][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Intermediate/Shaders/WorkingDirectory/12228/).
+[2017.12.21-13.29.49:949][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Hub-innovation/AppData/Local/Temp/UnrealShaderWorkingDir/DF9ADB42487BACCB7E7ECFBA07534678/'.
+[2017.12.21-13.29.49:949][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.21-13.29.50:718][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.21-13.29.50:762][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.21-13.29.50:807][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.21-13.29.50:855][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.21-13.29.50:907][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.21-13.29.50:958][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.21-13.29.51:009][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.21-13.29.51:055][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.21-13.29.51:097][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.21-13.29.51:144][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.21-13.29.51:209][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.21-13.29.51:258][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.21-13.29.51:302][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.21-13.29.51:341][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.21-13.29.51:381][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.21-13.29.51:462][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.21-13.29.51:462][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.21-13.29.51:493][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.21-13.29.51:575][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.21-13.29.51:599][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.21-13.29.51:638][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.21-13.29.51:677][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.21-13.29.51:718][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.21-13.29.51:756][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.21-13.29.51:756][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.21-13.29.52:141][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.21-13.29.52:221][  0]LogDerivedDataCache: Loaded boot cache 0.08s 106MB C:/Users/Hub-innovation/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.21-13.29.52:221][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Hub-innovation/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.21-13.29.52:221][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.21-13.29.52:221][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.21-13.29.52:221][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.21-13.29.52:221][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.21-13.29.52:240][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.21-13.29.52:252][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Hub-innovation/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.21-13.29.52:264][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.21-13.29.52:265][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.21-13.29.52:266][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.21-13.29.52:266][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.21-13.29.52:523][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
+[2017.12.21-13.29.52:640][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.21-13.29.52:764][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.21-13.29.53:080][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.21-13.29.53:129][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.21-13.29.53:129][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.21-13.29.53:129][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.21-13.29.53:129][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.21-13.29.53:129][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.21-13.29.53:501][  0]LogNetVersion: VR_Interaction , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1169913075)
+[2017.12.21-13.29.53:682][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.023760 seconds
+[2017.12.21-13.29.53:687][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.12.21-13.29.53:687][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.12.21-13.29.53:687][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.21-13.29.53:739][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.21-13.29.55:832][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.21-13.29.55:867][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.21-13.29.56:396][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.21-13.29.56:732][  0]SourceControl: Source control is disabled
+[2017.12.21-13.29.56:732][  0]SourceControl: Source control is disabled
+[2017.12.21-13.29.56:768][  0]SourceControl: Source control is disabled
+[2017.12.21-13.29.56:807][  0]SourceControl: Source control is disabled
+[2017.12.21-13.29.57:263][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.21-13.29.57:452][  0]LogOcInput: OculusInput pre-init called
+[2017.12.21-13.29.57:662][  0]LogEngine: Initializing Engine...
+[2017.12.21-13.29.58:217][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-005CE5B3
+[2017.12.21-13.29.58:399][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.21-13.29.58:399][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.21-13.29.58:495][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.21-13.29.58:507][  0]LogInit: XAudio2 using 'Haut-parleurs (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.21-13.29.58:515][  0]LogInit: FAudioDevice initialized.
+[2017.12.21-13.29.58:592][  0]LogDerivedDataCache: Saved boot cache 0.08s 106MB C:/Users/Hub-innovation/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.21-13.29.58:607][  0]LogInit: Texture streaming: Enabled
+[2017.12.21-13.29.58:690][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.21-13.29.58:851][  0]LogInit: Transaction tracking system initialized
+[2017.12.21-13.29.59:089][  0]BlueprintLog: New page: Editor Load
+[2017.12.21-13.29.59:749][  0]LocalizationService: Localization service is disabled
+[2017.12.21-13.30.00:269][  0]LogConsoleResponse: Display: 
+[2017.12.21-13.30.00:421][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.21-13.30.00:421][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.21-13.30.00:422][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.21-13.30.01:154][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/' took 0.01s
+[2017.12.21-13.30.01:189][  0]SourceControl: Source control is disabled
+[2017.12.21-13.30.01:189][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.21-13.30.01:190][  0]LightingResults: New page: Lighting Build
+[2017.12.21-13.30.01:222][  0]MapCheck: New page: Map Check
+[2017.12.21-13.30.01:222][  0]LightingResults: New page: Lighting Build
+[2017.12.21-13.30.01:694][  0]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.12.21-13.30.01:701][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.21-13.30.01:712][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.21-13.30.01:750][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 38.344ms to complete.
+[2017.12.21-13.30.01:750][  0]LogFileHelpers: Loading map 'MotionControllerMap' took 0.561
+[2017.12.21-13.30.01:819][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.21-13.30.01:896][  0]LogCollectionManager: Loaded 0 collections in 0.001114 seconds
+[2017.12.21-13.30.01:975][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Saved/Collections/' took 0.01s
+[2017.12.21-13.30.01:975][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Developers/Hubinnovation/Collections/' took 0.01s
+[2017.12.21-13.30.01:975][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Collections/' took 0.01s
+[2017.12.21-13.30.01:975][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.12.21-13.30.01:982][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2386 classes and 500 folders.
+[2017.12.21-13.30.02:031][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.12.21-13.30.02:057][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.12.21-13.30.02:107][  0]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.21-13.30.02:108][  0]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.21-13.30.02:113][  0]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.21-13.30.02:195][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 26 NumSamples 1 (Frame:1).
+[2017.12.21-13.30.02:315][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.12.21-13.30.02:315][  0]LogLoad: (Engine Initialization) Total time: 14.62 seconds
+[2017.12.21-13.30.02:315][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.21-13.30.02:315][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.21-13.30.02:315][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.21-13.30.02:339][  0]LogAssetRegistry: Asset discovery search completed in 9.8377 seconds
+[2017.12.21-13.30.02:341][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.21-13.30.02:341][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000048 seconds (updated 0 objects)
+[2017.12.21-13.30.02:343][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.21-13.30.02:355][  0]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.21-13.30.58:092][404]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.21-13.30.58:111][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Child_Material/M_birchbark_Inst.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:112][404]LogSlate: Took 0.000106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.21-13.30.58:127][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Child_Material/M_birchbark_Inst2.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:142][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Child_Material/M_bush_advanced_Inst.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:156][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Child_Material/M_bush_basic_Inst.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:170][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Child_Material/M_bush_pro_Inst.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:186][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Child_Material/M_deciduousbark1_Inst.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:203][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Child_Material/M_deciduousbark2_Inst.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:219][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Child_Material/M_flower_advanced_pink_Inst.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:236][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Child_Material/M_flower_advanced_red_Inst.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:253][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Child_Material/M_flower_basic_pink_Inst.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:271][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Child_Material/M_flower_basic_red_Inst.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:291][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Child_Material/M_flower_pro_pink_Inst.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:311][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Child_Material/M_flower_pro_red_Inst.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:337][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Child_Material/M_grass_advanced_Inst.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:362][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Child_Material/M_grass_advanced_Inst_2.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:387][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Child_Material/M_grass_basic_Inst.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:415][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Child_Material/M_grass_basic_Inst_2.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:443][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Child_Material/M_grass_pro_Inst.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:470][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Child_Material/M_grass_pro_Inst_2.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:503][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Child_Material/M_landscape_Inst.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:537][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Child_Material/M_tree_advanced_Inst.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:571][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Child_Material/M_tree_basic_Inst.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:607][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Child_Material/M_tree_Inst.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:642][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Child_Material/M_tree_pro_Inst.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:678][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Master_Material/M_bark.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:716][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Master_Material/M_grass_advanced.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:754][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Master_Material/M_grass_advanced_Inst.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:790][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Master_Material/M_grass_basic.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:821][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Master_Material/M_grass_pro.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:856][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Master_Material/M_grass_pro_Inst.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:889][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Master_Material/M_landscape.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:922][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Master_Material/M_landscape_Inst.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:954][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Master_Material/M_tree_advanced.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.58:987][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Master_Material/M_tree_advanced_Inst.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.59:022][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Master_Material/M_tree_basic.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.59:056][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Master_Material/M_tree_basic_Inst.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.59:090][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Master_Material/M_tree_pro.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.59:126][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Master_Material/reaction_param_collection.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.59:163][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Material/Particle/M_leave_part.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.59:205][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Bush/SM_bush1.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.59:241][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Bush/SM_bush2.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.59:277][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Bush/SM_bush3.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.59:313][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Bush/SM_bush4.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.59:351][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Bush/SM_bush5.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.59:389][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Bush/SM_bush6.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.59:427][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Field/SM_grass_flower_patch1.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.59:468][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Field/SM_grass_flower_patch2.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.59:507][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Field/SM_grass_flower_patch3.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.59:547][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Field/SM_grass_flower_patch4.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.59:587][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Field/SM_grass_flower_patch5.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.59:627][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Field/SM_grass_flower_patch6.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.59:667][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Flowers/grass_flower1.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.59:706][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Flowers/grass_flower2.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.59:747][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Flowers/grass_flower3.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.59:789][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Flowers/grass_flower4.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.59:828][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Flowers/grass_flower5.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.59:870][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Flowers/grass_flower6.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.59:910][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Flowers/SM_grass_flower1.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.59:951][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Flowers/SM_grass_flower2.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.30.59:992][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Flowers/SM_grass_flower3.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.00:037][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Flowers/SM_grass_flower4.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.00:080][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Flowers/SM_grass_flower5.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.00:122][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Flowers/SM_grass_flower6.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.00:161][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Flowers/SM_grass_patch_flower1.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.00:203][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Flowers/SM_grass_patch_flower2.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.00:245][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Flowers/SM_grass_patch_flower3.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.00:289][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Flowers/SM_grass_patch_flower4.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.00:332][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Flowers/SM_grass_patch_flower5.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.00:378][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Flowers/SM_grass_patch_flower6.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.00:427][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Grass/grass1.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.00:472][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Grass/grass2.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.00:520][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Grass/grass3.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.00:566][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Grass/grass4.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.00:612][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Grass/grass5.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.00:663][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Grass/grass6.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.00:711][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Grass/SM_grass1.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.00:757][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Grass/SM_grass2.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.00:803][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Grass/SM_grass3.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.00:849][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Grass/SM_grass4.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.00:896][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Grass/SM_grass5.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.00:947][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Grass/SM_grass6.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.00:996][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Grass/SM_grass_patch1.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.01:050][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Grass/SM_grass_patch2.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.01:098][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Grass/SM_grass_patch3.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.01:151][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Grass/SM_grass_patch4.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.01:202][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Grass/SM_grass_patch5.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.01:252][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Grass/SM_grass_patch6.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.01:303][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/grass1.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.01:354][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/grass2.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.01:403][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/grass_patch6.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.01:455][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Material_002.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.01:508][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Material_003.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.01:562][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/test2.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.01:616][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/tex_birchbark_diff.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.01:672][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/tree1.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.01:725][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/tree3.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.01:781][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/tree5.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.01:835][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Trees/SM_tree1.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.01:891][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Trees/SM_tree10.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.01:950][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Trees/SM_tree2.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.02:005][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Trees/SM_tree3.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.02:064][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Trees/SM_tree4.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.02:118][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Trees/SM_tree5.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.02:173][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Trees/SM_tree6.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.02:230][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Trees/SM_tree7.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.02:293][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Trees/SM_tree8.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.02:354][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Trees/SM_tree9.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.02:412][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Trees/tree1.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.02:474][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Trees/tree10.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.02:541][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Trees/tree2.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.02:607][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Trees/tree4.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.02:671][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Trees/tree5.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.02:737][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Trees/tree6.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.02:803][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Trees/tree7.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.02:869][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Trees/tree8.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.02:932][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Trees/tree9.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.02:997][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Meshes/Trees/untitled.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.03:065][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Particle/P_leave.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.03:129][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Grass_Flower/grass_flower_pink.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.03:194][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Grass_Flower/tex_flower_pink_diff.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.03:258][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Grass_Flower/tex_flower_red_diff.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.03:319][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Grass_Flower/tex_grass_diff.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.03:384][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Ground/dirt_normal.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.03:448][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Ground/Grass0026_12_S.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.03:509][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Ground/grass_normal.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.03:569][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Ground/SoilSand0206_18_S.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.03:628][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Ground/tex_dirt_diff.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.03:686][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Ground/tex_dirt_n.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.03:745][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Ground/tex_grass_diff.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.03:804][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Ground/tex_grass_n.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.03:860][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Ground/tex_macro.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.03:923][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Ground/tex_noise.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.03:980][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/mask.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.04:040][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/mask1.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.04:100][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/mask3.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.04:157][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Particle/leave.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.04:215][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Particle/tex_leave_diff.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.04:270][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Placeholder/tes1.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.04:325][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Placeholder/tes2.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.04:382][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Placeholder/tex_diffuse.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.04:437][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Placeholder/tex_normal.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.04:493][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/tex_snow_diff.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.04:546][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/tex_snow_mask.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.04:603][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/tex_snow_mask1.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.04:658][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/tex_snow_mask2.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.04:712][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/tex_snow_mask3.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.04:767][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/tex_snow_mask4.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.04:825][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/tex_variation1.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.04:878][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/tex_variation_diff.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.04:932][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Trees/bark155_normal.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.04:985][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Trees/bark164_normal.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.05:048][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Trees/BarkDecidious0155_7_S.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.05:105][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Trees/BarkDecidious0164_5_S.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.05:157][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Trees/tes.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.05:211][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Trees/tes_branc.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.05:268][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Trees/tex_birchbark_diff.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.05:324][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Trees/tex_birchbark_n.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.05:377][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Trees/tex_branch_diff.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.05:433][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Trees/tex_deciduousbark1_diff.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.05:488][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Trees/tex_deciduousbark1_n.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.05:546][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Trees/tex_deciduousbark2_diff.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.05:602][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Trees/tex_deciduousbark2_n.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.05:654][404]LogAssetTools: Warning: Failed to import 'C:\Users\Hub-innovation\Downloads\vegetation_pack\Content\Textures/Trees/tex_leaves_diff.uasset'. Unknown extension 'uasset'.
+[2017.12.21-13.31.54:890][328]LogTexture: Display: Building textures: tex_diffuse (AutoDXT, 512X512)
+[2017.12.21-13.31.54:890][328]LogTexture: Display: Building textures: tex_normal (BC5, 512X512)
+[2017.12.21-13.31.54:890][328]LogTexture: Display: Building textures: tex_birchbark_n (BC5, 512X1024)
+[2017.12.21-13.31.54:890][328]LogMaterial: Missing cached shader map for material M_bark, compiling. 
+[2017.12.21-13.31.55:017][328]LogTexture: Display: Building textures: tex_birchbark_diff (AutoDXT, 512X1024)
+[2017.12.21-13.31.55:017][328]LogTexture: Display: Building textures: tex_leaves_diff (AutoDXT, 1024X1024)
+[2017.12.21-13.31.55:017][328]LogStaticMesh: Building static mesh SM_tree9...
+[2017.12.21-13.31.55:047][328]LogStaticMesh: Built static mesh [0.03s] /Game/Meshes/Trees/SM_tree9.SM_tree9
+[2017.12.21-13.31.55:288][328]LogMaterial: Missing cached shader map for material M_tree_basic, compiling. 
+[2017.12.21-13.31.55:361][328]LogActorFactory: Actor Factory created SM_tree9
+[2017.12.21-13.31.56:367][444]LogActorFactory: Actor Factory created SM_tree9
+[2017.12.21-13.32.23:718][573]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_tree9)
+[2017.12.21-13.33.03:413][279]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 113 classes and 0 folders.
+[2017.12.21-13.33.03:719][279]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.21-13.34.50:399][900]MapCheck: New page: Map Check
+[2017.12.21-13.34.50:422][900]Cmd: MAP REBUILD ALLVISIBLE
+[2017.12.21-13.34.50:422][900]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.12.21-13.34.50:556][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.12.21-13.34.50:562][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2017.12.21-13.34.50:567][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BaseMaterial, compiling. 
+[2017.12.21-13.34.50:574][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultTextMaterialOpaque, compiling. 
+[2017.12.21-13.34.50:581][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2017.12.21-13.34.50:588][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_birchbark_Inst, compiling. 
+[2017.12.21-13.34.50:596][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_tree_basic_Inst, compiling. 
+[2017.12.21-13.34.51:129][900]TextureStreamingBuild: Display: Compiling optional shaders took 0.579 seconds.
+[2017.12.21-13.34.51:141][900]LogLevel: Display: Export Material TexCoord Scales took 0.012 seconds.
+[2017.12.21-13.34.51:149][900]TextureStreamingBuild: Display: Build Texture Streaming took 0.008 seconds.
+[2017.12.21-13.34.51:160][900]LightingResults: New page: Lighting Build - Dec 21, 2017, 3:34:51 PM
+[2017.12.21-13.34.51:186][900]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.12.21-13.34.51:242][900]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.12.21-13.34.51:250][900]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.12.21-13.34.51:757][900]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.12.21-13.34.51:757][900]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12228
+[2017.12.21-13.34.53:921][900]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.12.21-13.34.53:921][900]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.12.21-13.34.53:921][900]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.12.21-13.34.53:921][900]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.12.21-13.34.53:922][900]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.12.21-13.34.54:030][900]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.12.21-13.34.54:030][900]MapCheck: New page: MotionControllerMap - Dec 21, 2017, 3:34:54 PM
+[2017.12.21-13.34.54:031][900]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
+[2017.12.21-13.34.54:073][900]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 43.032ms to complete.
+[2017.12.21-13.34.54:095][900]LogEditorBuildUtils: Build time 0:03
+[2017.12.21-13.34.54:141][900]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_birchbark_Inst, compiling. 
+[2017.12.21-13.34.54:146][900]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_birchbark_Inst, compiling. 
+[2017.12.21-13.34.54:185][901]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_tree_basic_Inst, compiling. 
+[2017.12.21-13.34.54:193][901]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_tree_basic_Inst, compiling. 
+[2017.12.21-13.34.54:200][901]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_tree_basic_Inst, compiling. 
+[2017.12.21-13.35.01:598][473]Job is a success!
+[2017.12.21-13.35.02:241][474]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.12.21-13.35.02:241][474]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.12.21-13.35.02:241][474]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2017.12.21-13.35.02:241][474]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2017.12.21-13.35.02:241][474]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2017.12.21-13.35.02:241][474]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2017.12.21-13.35.02:357][474]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
+[2017.12.21-13.35.02:357][474]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X256)
+[2017.12.21-13.35.02:357][474]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X512)
+[2017.12.21-13.35.02:384][474]Lightmass on DESKTOP-E1AJGMH: 6.98 sec total, 103 ms importing, 17 ms setup, 2.14 sec photons, 4.68 sec processing, 0 ms extra exporting [52/52 mappings]. Threads: 32.6 sec total, 11.2 sec processing.
+[2017.12.21-13.35.02:390][474]LogStaticLightingSystem: Illumination: 11.2 sec (471 ms encoding lightmaps, 111 ms encoding shadowmaps)
+[2017.12.21-13.35.02:390][474]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (2.0 MB streaming, 2.0 MB non-streaming), 6 textures
+[2017.12.21-13.35.02:390][474]LogStaticLightingSystem: Shadowmap texture memory: 1.0 MB (0.3 MB streaming, 0.7 MB non-streaming), 3 textures
+[2017.12.21-13.35.02:930][474]DumpUnbuiltLightIteractions
+[2017.12.21-13.35.02:930][474]Lights with unbuilt interactions: 0
+[2017.12.21-13.35.02:930][474]
+[2017.12.21-13.35.02:930][474]Primitives with unbuilt interactions: 0
+[2017.12.21-13.35.02:938][475]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.12.21-13.35.02:938][475]MapCheck: New page: MotionControllerMap - Dec 21, 2017, 3:35:02 PM
+[2017.12.21-13.35.02:997][475]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 58.402ms to complete.
+[2017.12.21-13.35.35:681][377]BlueprintLog: New page: Compile TreeCut
+[2017.12.21-13.35.46:330][652]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_tree9)
+[2017.12.21-13.35.47:449][780]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_tree9)
+[2017.12.21-13.35.47:523][787]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.12.21-13.35.51:634][276]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.21-13.36.00:652][346]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.12.21-13.36.00:724][352]Cmd: EDCALLBACK SURFPROPS
+[2017.12.21-13.36.01:468][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_tree9)
+[2017.12.21-13.36.01:882][484]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_tree9)
+[2017.12.21-13.36.01:930][488]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.12.21-13.36.53:415][568]LogRenderer: Reallocating scene render targets to support 1208x712 Format 26 NumSamples 1 (Frame:1).
+[2017.12.21-13.37.05:031][883]LogSavePackage: Save=21.55ms
+[2017.12.21-13.37.05:031][883]LogSavePackage: Moving '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Saved/BP_TreeF60D792C4D1597F702E5228087DEAA61.tmp' to '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/VirtualRealityBP/Blueprints/BP_Tree.uasset'
+[2017.12.21-13.37.05:033][883]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/VirtualRealityBP/Blueprints/BP_Tree.uasset
+[2017.12.21-13.37.37:977][745]BlueprintLog: New page: Compile BP_Tree
+[2017.12.21-13.37.49:171][ 10]BlueprintLog: New page: Compile BP_Tree
+[2017.12.21-13.37.50:294][100]LogSavePackage: Save=20.76ms
+[2017.12.21-13.37.50:294][100]LogSavePackage: Moving '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Saved/BP_TreeCF268D0141AAF79A1AEE6B8C07FF6690.tmp' to '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/VirtualRealityBP/Blueprints/BP_Tree.uasset'
+[2017.12.21-13.37.50:297][100]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/VirtualRealityBP/Blueprints/BP_Tree.uasset
+[2017.12.21-13.38.21:594][741]LogSlate: Took 0.004430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.12.21-13.43.19:431][691]BlueprintLog: New page: Compile TreeCut
+[2017.12.21-13.43.20:035][757]LogSavePackage: Save=7.14ms
+[2017.12.21-13.43.20:035][757]LogSavePackage: Moving '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Saved/TreeCut4BC1503B4DE9836DA0A3A0947383A6D4.tmp' to '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/VirtualRealityBP/Blueprints/TreeCut.uasset'
+[2017.12.21-13.43.20:037][757]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/VirtualRealityBP/Blueprints/TreeCut.uasset
+[2017.12.21-13.43.22:469][ 42]BlueprintLog: New page: Compile BP_Tree
+[2017.12.21-13.43.22:474][ 42]LogBlueprint: Error: [Compiler BP_Tree] Event node  Event Cut  is out-of-date.  Please refresh it.
+[2017.12.21-13.43.22:763][ 42]LogBlueprint: Warning: [Compiler BP_Tree] [0815.07] Compile of BP_Tree failed. 1 Fatal Issue(s) 0 Warning(s) [in 294 ms] (/Game/VirtualRealityBP/Blueprints/BP_Tree.BP_Tree)
+[2017.12.21-13.43.49:346][ 58]BlueprintLog: New page: Compile BP_Tree
+[2017.12.21-13.43.50:380][134]LogSavePackage: Save=28.20ms
+[2017.12.21-13.43.50:380][134]LogSavePackage: Moving '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Saved/BP_TreeEDCC1BB14E532E111FF727A01F72B70B.tmp' to '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/VirtualRealityBP/Blueprints/BP_Tree.uasset'
+[2017.12.21-13.43.50:383][134]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/VirtualRealityBP/Blueprints/BP_Tree.uasset
+[2017.12.21-13.44.17:549][262]LogSavePackage: Save=28.58ms
+[2017.12.21-13.44.17:549][262]LogSavePackage: Moving '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Saved/BP_Tree7C3495E948C74B722D9299836A5DAD5A.tmp' to '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/VirtualRealityBP/Blueprints/BP_Tree.uasset'
+[2017.12.21-13.44.17:552][262]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/VirtualRealityBP/Blueprints/BP_Tree.uasset
+[2017.12.21-13.44.19:458][481]LogSavePackage: Save=19.82ms
+[2017.12.21-13.44.19:458][481]LogSavePackage: Moving '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Saved/BP_Tree1524F2674B5D3406A620799ECAD5BECE.tmp' to '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/VirtualRealityBP/Blueprints/BP_Tree.uasset'
+[2017.12.21-13.44.19:461][481]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/VirtualRealityBP/Blueprints/BP_Tree.uasset
+[2017.12.21-13.44.21:070][663]LogSavePackage: Save=20.16ms
+[2017.12.21-13.44.21:070][663]LogSavePackage: Moving '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Saved/BP_TreeCA962F1642F038731FEBA0AEA176D750.tmp' to '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/VirtualRealityBP/Blueprints/BP_Tree.uasset'
+[2017.12.21-13.44.21:073][663]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/VirtualRealityBP/Blueprints/BP_Tree.uasset
+[2017.12.21-13.45.02:929][521]LogSavePackage: Save=29.62ms
+[2017.12.21-13.45.02:929][521]LogSavePackage: Moving '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Saved/BP_TreeF37A7A3E4547010422794F90CEA619D9.tmp' to '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/VirtualRealityBP/Blueprints/BP_Tree.uasset'
+[2017.12.21-13.45.02:932][521]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/VirtualRealityBP/Blueprints/BP_Tree.uasset
+[2017.12.21-13.45.06:053][882]LogSavePackage: Save=20.52ms
+[2017.12.21-13.45.06:053][882]LogSavePackage: Moving '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Saved/BP_Tree865BE4844E44F29434AB4A935CCCC26D.tmp' to '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/VirtualRealityBP/Blueprints/BP_Tree.uasset'
+[2017.12.21-13.45.06:056][882]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/VirtualRealityBP/Blueprints/BP_Tree.uasset
+[2017.12.21-13.48.03:969][931]LogSavePackage: Save=111.55ms
+[2017.12.21-13.48.03:969][931]LogSavePackage: Moving '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Saved/MotionControllerMap_Auto11F7DBF664C2CC6CFF50E0B8C686DAD92.tmp' to '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto1.umap'
+[2017.12.21-13.48.03:970][931]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto1.umap
+[2017.12.21-13.48.03:974][931]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.144
+[2017.12.21-13.48.03:974][931]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.144
+[2017.12.21-13.48.03:976][931]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Maps/MotionControllerMap_BuiltData] ([1] browsable assets)...
+[2017.12.21-13.48.03:976][931]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Maps/MotionControllerMap_BuiltData]
+[2017.12.21-13.48.04:007][931]LogSavePackage: Save=20.54ms
+[2017.12.21-13.48.04:007][931]LogSavePackage: Moving '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Saved/MotionControllerMap_BuiltData_Auto15EE5D4964E817B9C06ACBA95219E9C56.tmp' to '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_BuiltData_Auto1.uasset'
+[2017.12.21-13.48.04:008][931]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_BuiltData_Auto1.uasset
+[2017.12.21-13.48.04:008][931]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VirtualRealityBP/Blueprints/BP_Tree] ([1] browsable assets)...
+[2017.12.21-13.48.04:019][931]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VirtualRealityBP/Blueprints/BP_Tree.BP_Tree]
+[2017.12.21-13.48.04:019][931]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/BP_Tree]
+[2017.12.21-13.48.04:053][931]LogSavePackage: Save=29.51ms
+[2017.12.21-13.48.04:053][931]LogSavePackage: Moving '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Saved/BP_Tree_Auto16B02938F4CEED27D25AC08A7B65BFEFC.tmp' to '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/BP_Tree_Auto1.uasset'
+[2017.12.21-13.48.04:054][931]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/BP_Tree_Auto1.uasset
+[2017.12.21-13.48.04:054][931]LogFileHelpers: Auto-saving content packages took 0.078
+[2017.12.21-13.50.02:716][436]LogTemp: Repeating last play command: VR Preview
+[2017.12.21-13.50.02:776][436]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.12.21-13.50.02:776][436]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.12.21-13.50.02:779][436]LogPlayLevel: [PlayLevel] Compiling BP_Tree before play...
+[2017.12.21-13.50.03:078][436]LogPlayLevel: PlayLevel: Blueprint regeneration took 302 ms (1 blueprints)
+[2017.12.21-13.50.03:079][436]PIE: New page: PIE session: MotionControllerMap (Dec 21, 2017, 3:50:03 PM)
+[2017.12.21-13.50.03:079][436]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.12.21-13.50.03:088][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009386s)
+[2017.12.21-13.50.03:089][436]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.12.21-13.50.03:089][436]LogPlayLevel: PIE: World Init took: (0.000783s)
+[2017.12.21-13.50.03:089][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.010404s)
+[2017.12.21-13.50.03:109][436]LogInit: XAudio2 using 'Haut-parleurs (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.21-13.50.03:115][436]LogInit: FAudioDevice initialized.
+[2017.12.21-13.50.03:258][436]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.12.21-13.50.03:258][436]LogLoad: Game class is 'GameModeBase'
+[2017.12.21-13.50.03:262][436]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.12.21-14.50.03
+[2017.12.21-13.50.03:262][436]LogWorld: Bringing up level for play took: 0.001673
+[2017.12.21-13.50.03:296][436]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.12.21-13.50.03:298][436]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.12.21-13.50.03:298][436]LogOutputDevice: Warning: 
+
+Script Stack:
+BP_MotionController_C.SetupRoomScaleOutline
+BP_MotionController_C.ExecuteUbergraph_BP_MotionController
+BP_MotionController_C.ReceiveBeginPlay
+MotionControllerPawn_C.ExecuteUbergraph_MotionControllerPawn
+MotionControllerPawn_C.ReceiveBeginPlay
+
+[2017.12.21-13.50.03:388][436]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.090 s
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: === Handled ensure: ===
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: 
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Core\Private\Math\Matrix.cpp] [Line: 8]
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: Stack: 
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000003D043E36
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000003CDCC2D2
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000003CDE4746
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000003CD6E1A1
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000391474EB
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: UE4Editor-Engine.dll!0x0000000039A9ABD3
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: UE4Editor-Engine.dll!0x0000000039AD06C4
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000003C70E944
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000003C8CDDA4
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000003C8E3101
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000003C8E52E2
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000003C8CE7AE
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000003C8E52E2
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000003C8CE7AE
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000003C8E52E2
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000003C70E944
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000003C8E4675
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000003922B247
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000003A3D5B47
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000391EDC2F
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000391FABCB
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: UE4Editor-Engine.dll!0x0000000039226959
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: UE4Editor-Engine.dll!0x0000000039207E03
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000003992BE89
+[2017.12.21-13.50.03:388][436]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000392605B6
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000003C70E944
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000003C8CDDA4
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000003C8E3101
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000003C90CDA4
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000003C8E52E2
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000003C8CE7AE
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000003C8E52E2
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000003C70E944
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000003C8E4675
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000003922B247
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000003A3D5B47
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000391EDC2F
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000391FABCB
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000003A3BA871
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: UE4Editor-Engine.dll!0x0000000039934991
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000003A3A601E
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: UE4Editor-Engine.dll!0x0000000039957CF6
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x0000000037C3AE6C
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x0000000037C6584E
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x0000000037C81394
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000376EBDF8
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x0000000037F7D646
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: UE4Editor.exe!0x000000007986534A
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: UE4Editor.exe!0x0000000079873970
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: UE4Editor.exe!0x00000000798739EA
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: UE4Editor.exe!0x00000000798802D9
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: UE4Editor.exe!0x0000000079881C47
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: KERNEL32.DLL!0x000000008BCD8364
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: ntdll.dll!0x000000008C167091
+[2017.12.21-13.50.03:389][436]LogOutputDevice: Error: 
+[2017.12.21-13.50.03:389][436]LogStats:                SubmitErrorReport -  0.000 s

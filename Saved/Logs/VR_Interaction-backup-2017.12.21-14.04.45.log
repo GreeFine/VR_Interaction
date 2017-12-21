@@ -1,0 +1,966 @@
+﻿Log file open, 12/21/17 13:54:20
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: VR_Interaction
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1589359978) SRandInit(1589359978).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.154964
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.21-12.54.20:739][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.21-12.54.20:739][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.21-12.54.20:749][  0]LogInit: Computer: DESKTOP-E1AJGMH
+[2017.12.21-12.54.20:749][  0]LogInit: User: Hubinnovation
+[2017.12.21-12.54.20:749][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.21-12.54.20:749][  0]LogInit: High frequency timer resolution =3.914059 MHz
+[2017.12.21-12.54.20:749][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.12.21-12.54.20:749][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.21-12.54.20:749][  0]LogMemory: Process Physical Memory: 278.20 MB used, 278.20 MB peak
+[2017.12.21-12.54.20:749][  0]LogMemory: Process Virtual Memory: 274.67 MB used, 274.67 MB peak
+[2017.12.21-12.54.20:749][  0]LogMemory: Physical Memory: 6151.10 MB used,  10153.22 MB free, 16304.32 MB total
+[2017.12.21-12.54.20:749][  0]LogMemory: Virtual Memory: 669.36 MB used,  10153.22 MB free, 134217728.00 MB total
+[2017.12.21-12.54.20:862][  0]LogInit: Using OS detected language (fr-FR).
+[2017.12.21-12.54.20:862][  0]LogInit: Using OS detected locale (fr-FR).
+[2017.12.21-12.54.20:864][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
+[2017.12.21-12.54.20:864][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the locale.
+[2017.12.21-12.54.21:411][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.21-12.54.21:448][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.12.21-12.54.21:449][  0]LogD3D11RHI:       8100/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2017.12.21-12.54.21:450][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.21-12.54.21:450][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.21-12.54.21:450][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.21-12.54.21:453][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.21-12.54.21:453][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.21-12.54.21:453][  0]LogWindows: EnumDisplayDevices:
+[2017.12.21-12.54.21:453][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.12.21-12.54.21:453][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.12.21-12.54.21:453][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.12.21-12.54.21:453][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.21-12.54.21:453][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.12.21-12.54.21:453][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.12.21-12.54.21:453][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2017.12.21-12.54.21:453][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2017.12.21-12.54.21:453][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.21-12.54.21:479][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.21-12.54.21:514][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.21-12.54.21:641][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Intermediate/Shaders/WorkingDirectory/10584/).
+[2017.12.21-12.54.21:641][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Hub-innovation/AppData/Local/Temp/UnrealShaderWorkingDir/75A39DA84C70DC310722E18F072C3B3B/'.
+[2017.12.21-12.54.21:641][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.21-12.54.22:355][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.21-12.54.22:395][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.21-12.54.22:435][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.21-12.54.22:478][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.21-12.54.22:518][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.21-12.54.22:558][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.21-12.54.22:597][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.21-12.54.22:636][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.21-12.54.22:670][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.21-12.54.22:708][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.21-12.54.22:745][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.21-12.54.22:787][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.21-12.54.22:828][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.21-12.54.22:867][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.21-12.54.22:910][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.21-12.54.22:990][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.21-12.54.22:990][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.21-12.54.23:021][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.21-12.54.23:100][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.21-12.54.23:122][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.21-12.54.23:160][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.21-12.54.23:199][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.21-12.54.23:239][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.21-12.54.23:278][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.21-12.54.23:278][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.21-12.54.23:636][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.21-12.54.23:705][  0]LogDerivedDataCache: Loaded boot cache 0.07s 106MB C:/Users/Hub-innovation/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.21-12.54.23:705][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Hub-innovation/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.21-12.54.23:706][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.21-12.54.23:706][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.21-12.54.23:706][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.21-12.54.23:706][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.21-12.54.23:720][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.21-12.54.23:731][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Hub-innovation/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.21-12.54.23:740][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.21-12.54.23:740][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.21-12.54.23:740][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.21-12.54.23:740][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.21-12.54.23:947][  0]LogAssetRegistry: FAssetRegistry took 0.0246 seconds to start up
+[2017.12.21-12.54.24:040][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.21-12.54.24:158][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.21-12.54.24:384][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.21-12.54.24:415][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.21-12.54.24:415][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.21-12.54.24:415][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.21-12.54.24:415][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.21-12.54.24:415][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.21-12.54.24:697][  0]LogNetVersion: VR_Interaction , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1169913075)
+[2017.12.21-12.54.24:850][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.023495 seconds
+[2017.12.21-12.54.24:855][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.12.21-12.54.24:855][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.12.21-12.54.24:855][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.21-12.54.24:905][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.21-12.54.26:860][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.21-12.54.26:891][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.21-12.54.27:386][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.21-12.54.27:698][  0]SourceControl: Source control is disabled
+[2017.12.21-12.54.27:698][  0]SourceControl: Source control is disabled
+[2017.12.21-12.54.27:734][  0]SourceControl: Source control is disabled
+[2017.12.21-12.54.27:769][  0]SourceControl: Source control is disabled
+[2017.12.21-12.54.28:194][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.21-12.54.28:371][  0]LogOcInput: OculusInput pre-init called
+[2017.12.21-12.54.28:564][  0]LogEngine: Initializing Engine...
+[2017.12.21-12.54.28:598][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-005CE5B3
+[2017.12.21-12.54.28:774][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.21-12.54.28:774][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.21-12.54.28:868][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.21-12.54.28:880][  0]LogInit: XAudio2 using 'Haut-parleurs (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.21-12.54.28:888][  0]LogInit: FAudioDevice initialized.
+[2017.12.21-12.54.28:971][  0]LogDerivedDataCache: Saved boot cache 0.08s 106MB C:/Users/Hub-innovation/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.21-12.54.28:983][  0]LogInit: Texture streaming: Enabled
+[2017.12.21-12.54.29:071][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.21-12.54.29:236][  0]LogInit: Transaction tracking system initialized
+[2017.12.21-12.54.29:466][  0]BlueprintLog: New page: Editor Load
+[2017.12.21-12.54.30:142][  0]LocalizationService: Localization service is disabled
+[2017.12.21-12.54.30:658][  0]LogConsoleResponse: Display: 
+[2017.12.21-12.54.30:806][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.21-12.54.30:806][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.21-12.54.30:806][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.21-12.54.31:533][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/' took 0.01s
+[2017.12.21-12.54.31:566][  0]SourceControl: Source control is disabled
+[2017.12.21-12.54.31:566][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.21-12.54.31:566][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/VirtualRealityBP/Maps/StartupMap.umap'
+[2017.12.21-12.54.31:566][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.21-12.54.31:600][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 33.478ms to complete.
+[2017.12.21-12.54.31:600][  0]LogFileHelpers: Loading map 'StartupMap' took 0.034
+[2017.12.21-12.54.31:681][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.21-12.54.31:756][  0]LogCollectionManager: Loaded 0 collections in 0.001104 seconds
+[2017.12.21-12.54.31:833][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Saved/Collections/' took 0.01s
+[2017.12.21-12.54.31:833][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Developers/Hubinnovation/Collections/' took 0.01s
+[2017.12.21-12.54.31:833][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Collections/' took 0.01s
+[2017.12.21-12.54.31:833][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.21-12.54.31:840][  0]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2386 classes and 500 folders.
+[2017.12.21-12.54.31:887][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.12.21-12.54.31:914][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.12.21-12.54.31:963][  0]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.21-12.54.31:964][  0]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.21-12.54.31:969][  0]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.21-12.54.32:049][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 26 NumSamples 1 (Frame:1).
+[2017.12.21-12.54.32:168][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.12.21-12.54.32:168][  0]LogLoad: (Engine Initialization) Total time: 12.74 seconds
+[2017.12.21-12.54.32:168][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.21-12.54.32:168][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.21-12.54.32:168][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.21-12.54.32:192][  0]LogAssetRegistry: Asset discovery search completed in 8.2665 seconds
+[2017.12.21-12.54.32:194][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.12.21-12.54.32:194][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2017.12.21-12.54.32:196][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.21-12.54.32:208][  0]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.21-12.54.41:631][120]LogSlate: Took 0.000100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.21-12.54.42:089][120]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.12.21-12.54.48:839][920]Cmd: MAP LOAD FILE="../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.21-12.54.48:839][920]LightingResults: New page: Lighting Build
+[2017.12.21-12.54.48:871][920]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0005 seconds. Added 5 classes and 0 folders.
+[2017.12.21-12.54.48:871][920]LoadErrors: New page: Loading map: MotionControllerMap.umap
+[2017.12.21-12.54.48:872][920]MapCheck: New page: Map Check
+[2017.12.21-12.54.48:872][920]LightingResults: New page: Lighting Build
+[2017.12.21-12.54.48:929][920]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.21-12.54.48:961][920]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.21-12.54.49:000][920]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 38.649ms to complete.
+[2017.12.21-12.54.49:001][920]LogFileHelpers: Loading map 'MotionControllerMap' took 0.162
+[2017.12.21-12.54.59:287][ 45]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.VRInteraction
+[2017.12.21-12.54.59:287][ 45]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.12.21-12.54.59:287][ 45]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.12.21-12.54.59:287][ 45]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.12.21-12.54.59:287][ 45]LogTemp: BranchPath = DESKTOP-E1AJGMH/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-E1AJGMH/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.12.21-12.54.59:309][ 47]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Hub-innovation\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.12.21-12.55.31:100][817]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.21-12.55.58:015][ 30]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Billboard_Mat'
+[2017.12.21-12.55.58:015][ 30]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Billboard_Mat' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old.uasset.
+[2017.12.21-12.55.58:015][ 30]LoadErrors: Error: /Game/Assets/Amur_Old/Amur_Old : Can't find file for asset. /Game/Amur_Old/Amur_Old_Billboard_Mat
+[2017.12.21-12.55.58:015][ 30]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Branches_2_Mat'
+[2017.12.21-12.55.58:015][ 30]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Branches_2_Mat' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old.uasset.
+[2017.12.21-12.55.58:016][ 30]LoadErrors: Error: /Game/Assets/Amur_Old/Amur_Old : Can't find file for asset. /Game/Amur_Old/Amur_Old_Branches_2_Mat
+[2017.12.21-12.55.58:016][ 30]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Branches_Mat'
+[2017.12.21-12.55.58:016][ 30]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Branches_Mat' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old.uasset.
+[2017.12.21-12.55.58:016][ 30]LoadErrors: Error: /Game/Assets/Amur_Old/Amur_Old : Can't find file for asset. /Game/Amur_Old/Amur_Old_Branches_Mat
+[2017.12.21-12.55.58:016][ 30]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Leaves_Mat'
+[2017.12.21-12.55.58:016][ 30]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Leaves_Mat' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old.uasset.
+[2017.12.21-12.55.58:016][ 30]LoadErrors: Error: /Game/Assets/Amur_Old/Amur_Old : Can't find file for asset. /Game/Amur_Old/Amur_Old_Leaves_Mat
+[2017.12.21-12.55.58:016][ 30]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Billboard_Mat'
+[2017.12.21-12.55.58:016][ 30]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Billboard_Mat' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old.uasset.
+[2017.12.21-12.55.58:016][ 30]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Branches_2_Mat'
+[2017.12.21-12.55.58:016][ 30]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Branches_2_Mat' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old.uasset.
+[2017.12.21-12.55.58:016][ 30]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Branches_Mat'
+[2017.12.21-12.55.58:016][ 30]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Branches_Mat' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old.uasset.
+[2017.12.21-12.55.58:016][ 30]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Leaves_Mat'
+[2017.12.21-12.55.58:016][ 30]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Leaves_Mat' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old.uasset.
+[2017.12.21-12.55.58:018][ 30]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Branches_Mat'
+[2017.12.21-12.55.58:018][ 30]LoadErrors: Failed to load /Game/Amur_Old/Amur_Old_Branches_Mat.Amur_Old_Branches_Mat Referenced by Amur_Old
+[2017.12.21-12.55.58:018][ 30]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Branches_Mat' while loading NULL.
+[2017.12.21-12.55.58:018][ 30]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Branches_2_Mat'
+[2017.12.21-12.55.58:018][ 30]LoadErrors: Failed to load /Game/Amur_Old/Amur_Old_Branches_2_Mat.Amur_Old_Branches_2_Mat Referenced by Amur_Old
+[2017.12.21-12.55.58:018][ 30]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Branches_2_Mat' while loading NULL.
+[2017.12.21-12.55.58:018][ 30]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Leaves_Mat'
+[2017.12.21-12.55.58:018][ 30]LoadErrors: Failed to load /Game/Amur_Old/Amur_Old_Leaves_Mat.Amur_Old_Leaves_Mat Referenced by Amur_Old
+[2017.12.21-12.55.58:018][ 30]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Leaves_Mat' while loading NULL.
+[2017.12.21-12.55.58:018][ 30]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Leaves_Mat'
+[2017.12.21-12.55.58:018][ 30]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Leaves_Mat' while loading NULL.
+[2017.12.21-12.55.58:018][ 30]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Billboard_Mat'
+[2017.12.21-12.55.58:018][ 30]LoadErrors: Failed to load /Game/Amur_Old/Amur_Old_Billboard_Mat.Amur_Old_Billboard_Mat Referenced by Amur_Old
+[2017.12.21-12.55.58:019][ 30]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Billboard_Mat' while loading NULL.
+[2017.12.21-12.55.58:203][ 30]LogActorFactory: Actor Factory created Amur_Old
+[2017.12.21-12.55.59:229][151]LogActorFactory: Actor Factory created Amur_Old
+[2017.12.21-12.56.19:385][525]Cmd: DELETE
+[2017.12.21-12.56.19:385][525]Cmd: ACTOR DELETE
+[2017.12.21-12.56.19:395][525]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.21-12.56.19:403][525]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.12.21-12.56.21:644][794]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old01_Billboard_Mat'
+[2017.12.21-12.56.21:644][794]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old01_Billboard_Mat' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old01.uasset.
+[2017.12.21-12.56.21:645][794]LoadErrors: Error: /Game/Assets/Amur_Old/Amur_Old01 : Can't find file for asset. /Game/Amur_Old/Amur_Old01_Billboard_Mat
+[2017.12.21-12.56.21:645][794]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Branches_2_Mat'
+[2017.12.21-12.56.21:645][794]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Branches_2_Mat' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old01.uasset.
+[2017.12.21-12.56.21:645][794]LoadErrors: Error: /Game/Assets/Amur_Old/Amur_Old01 : Can't find file for asset. /Game/Amur_Old/Amur_Old_Branches_2_Mat
+[2017.12.21-12.56.21:645][794]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Branches_Mat'
+[2017.12.21-12.56.21:645][794]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Branches_Mat' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old01.uasset.
+[2017.12.21-12.56.21:645][794]LoadErrors: Error: /Game/Assets/Amur_Old/Amur_Old01 : Can't find file for asset. /Game/Amur_Old/Amur_Old_Branches_Mat
+[2017.12.21-12.56.21:645][794]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Leaves_Mat'
+[2017.12.21-12.56.21:645][794]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Leaves_Mat' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old01.uasset.
+[2017.12.21-12.56.21:645][794]LoadErrors: Error: /Game/Assets/Amur_Old/Amur_Old01 : Can't find file for asset. /Game/Amur_Old/Amur_Old_Leaves_Mat
+[2017.12.21-12.56.21:645][794]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old01_Billboard_Mat'
+[2017.12.21-12.56.21:645][794]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old01_Billboard_Mat' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old01.uasset.
+[2017.12.21-12.56.21:645][794]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Branches_2_Mat'
+[2017.12.21-12.56.21:645][794]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Branches_2_Mat' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old01.uasset.
+[2017.12.21-12.56.21:646][794]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Branches_Mat'
+[2017.12.21-12.56.21:646][794]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Branches_Mat' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old01.uasset.
+[2017.12.21-12.56.21:646][794]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Leaves_Mat'
+[2017.12.21-12.56.21:646][794]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Leaves_Mat' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old01.uasset.
+[2017.12.21-12.56.21:647][794]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Branches_Mat'
+[2017.12.21-12.56.21:647][794]LoadErrors: Failed to load /Game/Amur_Old/Amur_Old_Branches_Mat.Amur_Old_Branches_Mat Referenced by Amur_Old01
+[2017.12.21-12.56.21:647][794]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Branches_Mat' while loading NULL.
+[2017.12.21-12.56.21:647][794]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Branches_2_Mat'
+[2017.12.21-12.56.21:647][794]LoadErrors: Failed to load /Game/Amur_Old/Amur_Old_Branches_2_Mat.Amur_Old_Branches_2_Mat Referenced by Amur_Old01
+[2017.12.21-12.56.21:647][794]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Branches_2_Mat' while loading NULL.
+[2017.12.21-12.56.21:647][794]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Leaves_Mat'
+[2017.12.21-12.56.21:647][794]LoadErrors: Failed to load /Game/Amur_Old/Amur_Old_Leaves_Mat.Amur_Old_Leaves_Mat Referenced by Amur_Old01
+[2017.12.21-12.56.21:648][794]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Leaves_Mat' while loading NULL.
+[2017.12.21-12.56.21:648][794]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Leaves_Mat'
+[2017.12.21-12.56.21:648][794]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Leaves_Mat' while loading NULL.
+[2017.12.21-12.56.21:648][794]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old01_Billboard_Mat'
+[2017.12.21-12.56.21:648][794]LoadErrors: Failed to load /Game/Amur_Old/Amur_Old01_Billboard_Mat.Amur_Old01_Billboard_Mat Referenced by Amur_Old01
+[2017.12.21-12.56.21:648][794]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old01_Billboard_Mat' while loading NULL.
+[2017.12.21-12.56.21:789][796]LogActorFactory: Actor Factory created Amur_Old01
+[2017.12.21-12.56.22:345][862]LogActorFactory: Actor Factory created Amur_Old01
+[2017.12.21-12.56.50:077][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Amur_Old01)
+[2017.12.21-12.56.50:404][197]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Amur_Old01)
+[2017.12.21-12.56.50:835][247]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Amur_Old01)
+[2017.12.21-12.56.58:436][134]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old02_Atlas_Billboards_Normal_Tex'
+[2017.12.21-12.56.58:436][134]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old02_Atlas_Billboards_Normal_Tex' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old02_Billboard_Mat.uasset.
+[2017.12.21-12.56.58:436][134]LoadErrors: Error: /Game/Assets/Amur_Old/Amur_Old02_Billboard_Mat : Can't find file for asset. /Game/Amur_Old/Amur_Old02_Atlas_Billboards_Normal_Tex
+[2017.12.21-12.56.58:436][134]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old02_Atlas_Billboards_Tex'
+[2017.12.21-12.56.58:436][134]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old02_Atlas_Billboards_Tex' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old02_Billboard_Mat.uasset.
+[2017.12.21-12.56.58:436][134]LoadErrors: Error: /Game/Assets/Amur_Old/Amur_Old02_Billboard_Mat : Can't find file for asset. /Game/Amur_Old/Amur_Old02_Atlas_Billboards_Tex
+[2017.12.21-12.56.58:436][134]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old02_Atlas_Billboards_Normal_Tex'
+[2017.12.21-12.56.58:436][134]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old02_Atlas_Billboards_Normal_Tex' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old02_Billboard_Mat.uasset.
+[2017.12.21-12.56.58:436][134]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old02_Atlas_Billboards_Tex'
+[2017.12.21-12.56.58:436][134]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old02_Atlas_Billboards_Tex' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old02_Billboard_Mat.uasset.
+[2017.12.21-12.56.58:437][134]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old02_Atlas_Billboards_Tex'
+[2017.12.21-12.56.58:437][134]LoadErrors: Failed to load /Game/Amur_Old/Amur_Old02_Atlas_Billboards_Tex.Amur_Old02_Atlas_Billboards_Tex Referenced by MaterialExpressionTextureSample_0
+[2017.12.21-12.56.58:437][134]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old02_Atlas_Billboards_Tex' while loading NULL.
+[2017.12.21-12.56.58:437][134]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old02_Atlas_Billboards_Normal_Tex'
+[2017.12.21-12.56.58:437][134]LoadErrors: Failed to load /Game/Amur_Old/Amur_Old02_Atlas_Billboards_Normal_Tex.Amur_Old02_Atlas_Billboards_Normal_Tex Referenced by MaterialExpressionTextureSample_1
+[2017.12.21-12.56.58:438][134]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old02_Atlas_Billboards_Normal_Tex' while loading NULL.
+[2017.12.21-12.56.58:440][134]LogMaterial: Missing cached shader map for material Amur_Old02_Billboard_Mat, compiling. 
+[2017.12.21-12.56.58:440][134]LogMaterial: Warning: Failed to compile Material /Game/Assets/Amur_Old/Amur_Old02_Billboard_Mat.Amur_Old02_Billboard_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.21-12.56.58:440][134]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.21-12.57.07:095][164]LogLinker: Warning: Can't find file '/Game/Amur_Old/Acer_rubrum_tr_01_NRM_Tex'
+[2017.12.21-12.57.07:096][164]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Acer_rubrum_tr_01_NRM_Tex' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old_Branches_2_Mat.uasset.
+[2017.12.21-12.57.07:096][164]LoadErrors: Error: /Game/Assets/Amur_Old/Amur_Old_Branches_2_Mat : Can't find file for asset. /Game/Amur_Old/Acer_rubrum_tr_01_NRM_Tex
+[2017.12.21-12.57.07:096][164]LogLinker: Warning: Can't find file '/Game/Amur_Old/Acer_rubrum_tr_01_Tex'
+[2017.12.21-12.57.07:096][164]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Acer_rubrum_tr_01_Tex' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old_Branches_2_Mat.uasset.
+[2017.12.21-12.57.07:096][164]LoadErrors: Error: /Game/Assets/Amur_Old/Amur_Old_Branches_2_Mat : Can't find file for asset. /Game/Amur_Old/Acer_rubrum_tr_01_Tex
+[2017.12.21-12.57.07:096][164]LogLinker: Warning: Can't find file '/Game/Amur_Old/Acer_rubrum_tr_01_NRM_Tex'
+[2017.12.21-12.57.07:096][164]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Acer_rubrum_tr_01_NRM_Tex' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old_Branches_2_Mat.uasset.
+[2017.12.21-12.57.07:096][164]LogLinker: Warning: Can't find file '/Game/Amur_Old/Acer_rubrum_tr_01_Tex'
+[2017.12.21-12.57.07:096][164]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Acer_rubrum_tr_01_Tex' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old_Branches_2_Mat.uasset.
+[2017.12.21-12.57.07:097][164]LogLinker: Warning: Can't find file '/Game/Amur_Old/Acer_rubrum_tr_01_Tex'
+[2017.12.21-12.57.07:097][164]LoadErrors: Failed to load /Game/Amur_Old/Acer_rubrum_tr_01_Tex.Acer_rubrum_tr_01_Tex Referenced by MaterialExpressionTextureSample_0
+[2017.12.21-12.57.07:097][164]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Acer_rubrum_tr_01_Tex' while loading NULL.
+[2017.12.21-12.57.07:097][164]LogLinker: Warning: Can't find file '/Game/Amur_Old/Acer_rubrum_tr_01_NRM_Tex'
+[2017.12.21-12.57.07:097][164]LoadErrors: Failed to load /Game/Amur_Old/Acer_rubrum_tr_01_NRM_Tex.Acer_rubrum_tr_01_NRM_Tex Referenced by MaterialExpressionTextureSample_1
+[2017.12.21-12.57.07:097][164]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Acer_rubrum_tr_01_NRM_Tex' while loading NULL.
+[2017.12.21-12.57.07:099][164]LogMaterial: Missing cached shader map for material Amur_Old_Branches_2_Mat, compiling. 
+[2017.12.21-12.57.07:099][164]LogMaterial: Warning: Failed to compile Material /Game/Assets/Amur_Old/Amur_Old_Branches_2_Mat.Amur_Old_Branches_2_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.21-12.57.07:099][164]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.21-12.57.09:920][499]LogLinker: Warning: Can't find file '/Game/Amur_Old/Acer_rubrum_tr_01_NRM_Tex'
+[2017.12.21-12.57.09:920][499]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Acer_rubrum_tr_01_NRM_Tex' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old_Branches_Mat.uasset.
+[2017.12.21-12.57.09:920][499]LoadErrors: Error: /Game/Assets/Amur_Old/Amur_Old_Branches_Mat : Can't find file for asset. /Game/Amur_Old/Acer_rubrum_tr_01_NRM_Tex
+[2017.12.21-12.57.09:921][499]LogLinker: Warning: Can't find file '/Game/Amur_Old/Acer_rubrum_tr_01_Tex'
+[2017.12.21-12.57.09:921][499]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Acer_rubrum_tr_01_Tex' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old_Branches_Mat.uasset.
+[2017.12.21-12.57.09:921][499]LoadErrors: Error: /Game/Assets/Amur_Old/Amur_Old_Branches_Mat : Can't find file for asset. /Game/Amur_Old/Acer_rubrum_tr_01_Tex
+[2017.12.21-12.57.09:921][499]LogLinker: Warning: Can't find file '/Game/Amur_Old/Acer_rubrum_tr_01_NRM_Tex'
+[2017.12.21-12.57.09:921][499]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Acer_rubrum_tr_01_NRM_Tex' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old_Branches_Mat.uasset.
+[2017.12.21-12.57.09:921][499]LogLinker: Warning: Can't find file '/Game/Amur_Old/Acer_rubrum_tr_01_Tex'
+[2017.12.21-12.57.09:921][499]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Acer_rubrum_tr_01_Tex' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old_Branches_Mat.uasset.
+[2017.12.21-12.57.09:922][499]LogLinker: Warning: Can't find file '/Game/Amur_Old/Acer_rubrum_tr_01_Tex'
+[2017.12.21-12.57.09:922][499]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Acer_rubrum_tr_01_Tex' while loading NULL.
+[2017.12.21-12.57.09:922][499]LogLinker: Warning: Can't find file '/Game/Amur_Old/Acer_rubrum_tr_01_NRM_Tex'
+[2017.12.21-12.57.09:922][499]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Acer_rubrum_tr_01_NRM_Tex' while loading NULL.
+[2017.12.21-12.57.09:924][499]LogMaterial: Missing cached shader map for material Amur_Old_Branches_Mat, compiling. 
+[2017.12.21-12.57.09:924][499]LogMaterial: Warning: Failed to compile Material /Game/Assets/Amur_Old/Amur_Old_Branches_Mat.Amur_Old_Branches_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.21-12.57.09:924][499]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.21-12.57.11:745][714]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Atlas_Normal_Tex'
+[2017.12.21-12.57.11:745][714]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Atlas_Normal_Tex' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old_Leaves_Mat.uasset.
+[2017.12.21-12.57.11:745][714]LoadErrors: Error: /Game/Assets/Amur_Old/Amur_Old_Leaves_Mat : Can't find file for asset. /Game/Amur_Old/Amur_Old_Atlas_Normal_Tex
+[2017.12.21-12.57.11:745][714]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Atlas_Tex'
+[2017.12.21-12.57.11:745][714]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Atlas_Tex' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old_Leaves_Mat.uasset.
+[2017.12.21-12.57.11:745][714]LoadErrors: Error: /Game/Assets/Amur_Old/Amur_Old_Leaves_Mat : Can't find file for asset. /Game/Amur_Old/Amur_Old_Atlas_Tex
+[2017.12.21-12.57.11:746][714]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Atlas_Normal_Tex'
+[2017.12.21-12.57.11:746][714]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Atlas_Normal_Tex' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old_Leaves_Mat.uasset.
+[2017.12.21-12.57.11:746][714]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Atlas_Tex'
+[2017.12.21-12.57.11:746][714]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Atlas_Tex' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old_Leaves_Mat.uasset.
+[2017.12.21-12.57.11:747][714]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Atlas_Tex'
+[2017.12.21-12.57.11:747][714]LoadErrors: Failed to load /Game/Amur_Old/Amur_Old_Atlas_Tex.Amur_Old_Atlas_Tex Referenced by MaterialExpressionTextureSample_0
+[2017.12.21-12.57.11:747][714]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Atlas_Tex' while loading NULL.
+[2017.12.21-12.57.11:747][714]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Atlas_Normal_Tex'
+[2017.12.21-12.57.11:747][714]LoadErrors: Failed to load /Game/Amur_Old/Amur_Old_Atlas_Normal_Tex.Amur_Old_Atlas_Normal_Tex Referenced by MaterialExpressionTextureSample_1
+[2017.12.21-12.57.11:747][714]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Atlas_Normal_Tex' while loading NULL.
+[2017.12.21-12.57.11:749][714]LogMaterial: Missing cached shader map for material Amur_Old_Leaves_Mat, compiling. 
+[2017.12.21-12.57.11:749][714]LogMaterial: Warning: Failed to compile Material /Game/Assets/Amur_Old/Amur_Old_Leaves_Mat.Amur_Old_Leaves_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.21-12.57.11:749][714]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.21-12.57.15:392][148]MapCheck: New page: Map Check
+[2017.12.21-12.57.15:423][148]Cmd: MAP REBUILD ALLVISIBLE
+[2017.12.21-12.57.15:423][148]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.12.21-12.57.15:540][148]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.12.21-12.57.15:548][148]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2017.12.21-12.57.15:553][148]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BaseMaterial, compiling. 
+[2017.12.21-12.57.15:558][148]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultTextMaterialOpaque, compiling. 
+[2017.12.21-12.57.15:564][148]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2017.12.21-12.57.15:570][148]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Amur_Old02_Billboard_Mat, compiling. 
+[2017.12.21-12.57.15:573][148]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Amur_Old_Leaves_Mat, compiling. 
+[2017.12.21-12.57.15:576][148]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Amur_Old_Branches_Mat, compiling. 
+[2017.12.21-12.57.15:579][148]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Amur_Old_Branches_2_Mat, compiling. 
+[2017.12.21-12.57.16:039][148]TextureStreamingBuild: Display: Compiling optional shaders took 0.504 seconds.
+[2017.12.21-12.57.16:051][148]LogLevel: Display: Export Material TexCoord Scales took 0.012 seconds.
+[2017.12.21-12.57.16:060][148]TextureStreamingBuild: Display: Build Texture Streaming took 0.009 seconds.
+[2017.12.21-12.57.16:069][148]LightingResults: New page: Lighting Build - Dec 21, 2017, 2:57:16 PM
+[2017.12.21-12.57.16:109][148]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.12.21-12.57.16:165][148]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.12.21-12.57.16:178][148]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.12.21-12.57.16:720][148]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.12.21-12.57.16:720][148]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10584
+[2017.12.21-12.57.19:520][148]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.12.21-12.57.19:520][148]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.12.21-12.57.19:521][148]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.12.21-12.57.19:521][148]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.12.21-12.57.19:521][148]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.12.21-12.57.20:049][148]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.12.21-12.57.20:049][148]MapCheck: New page: MotionControllerMap - Dec 21, 2017, 2:57:20 PM
+[2017.12.21-12.57.20:050][148]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
+[2017.12.21-12.57.20:091][148]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 41.626ms to complete.
+[2017.12.21-12.57.20:114][148]LogEditorBuildUtils: Build time 0:04
+[2017.12.21-12.57.20:146][148]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_2, compiling. 
+[2017.12.21-12.57.20:151][148]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_2, compiling. 
+[2017.12.21-12.57.20:201][149]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Amur_Old02_Billboard_Mat, compiling. 
+[2017.12.21-12.57.20:203][149]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Amur_Old02_Billboard_Mat, compiling. 
+[2017.12.21-12.57.20:208][149]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Amur_Old02_Billboard_Mat, compiling. 
+[2017.12.21-12.57.20:224][150]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Amur_Old_Leaves_Mat, compiling. 
+[2017.12.21-12.57.20:228][150]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Amur_Old_Leaves_Mat, compiling. 
+[2017.12.21-12.57.20:235][150]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Amur_Old_Leaves_Mat, compiling. 
+[2017.12.21-12.57.20:254][151]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Amur_Old_Branches_Mat, compiling. 
+[2017.12.21-12.57.20:257][151]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Amur_Old_Branches_Mat, compiling. 
+[2017.12.21-12.57.20:287][152]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Amur_Old_Branches_2_Mat, compiling. 
+[2017.12.21-12.57.20:290][152]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Amur_Old_Branches_2_Mat, compiling. 
+[2017.12.21-12.57.29:542][872]Job is a success!
+[2017.12.21-12.57.29:717][873]LogMaterial: Warning: Material /Game/Assets/Amur_Old/Amur_Old02_Billboard_Mat.Amur_Old02_Billboard_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.21-12.57.29:719][873]LogMaterial: Missing cached shader map for material Amur_Old02_Billboard_Mat, compiling. 
+[2017.12.21-12.57.29:719][873]LogMaterial: Warning: Failed to compile Material /Game/Assets/Amur_Old/Amur_Old02_Billboard_Mat.Amur_Old02_Billboard_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.21-12.57.29:719][873]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.21-12.57.29:721][873]LogMaterial: Warning: Material /Game/Assets/Amur_Old/Amur_Old_Leaves_Mat.Amur_Old_Leaves_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.21-12.57.29:723][873]LogMaterial: Missing cached shader map for material Amur_Old_Leaves_Mat, compiling. 
+[2017.12.21-12.57.29:724][873]LogMaterial: Warning: Failed to compile Material /Game/Assets/Amur_Old/Amur_Old_Leaves_Mat.Amur_Old_Leaves_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.21-12.57.29:724][873]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.21-12.57.29:725][873]LogMaterial: Warning: Material /Game/Assets/Amur_Old/Amur_Old_Branches_Mat.Amur_Old_Branches_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.21-12.57.29:727][873]LogMaterial: Missing cached shader map for material Amur_Old_Branches_Mat, compiling. 
+[2017.12.21-12.57.29:727][873]LogMaterial: Warning: Failed to compile Material /Game/Assets/Amur_Old/Amur_Old_Branches_Mat.Amur_Old_Branches_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.21-12.57.29:727][873]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.21-12.57.29:729][873]LogMaterial: Warning: Material /Game/Assets/Amur_Old/Amur_Old_Branches_2_Mat.Amur_Old_Branches_2_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.21-12.57.29:731][873]LogMaterial: Missing cached shader map for material Amur_Old_Branches_2_Mat, compiling. 
+[2017.12.21-12.57.29:731][873]LogMaterial: Warning: Failed to compile Material /Game/Assets/Amur_Old/Amur_Old_Branches_2_Mat.Amur_Old_Branches_2_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.21-12.57.29:731][873]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.21-12.57.30:243][873]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.12.21-12.57.30:243][873]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.12.21-12.57.30:243][873]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2017.12.21-12.57.30:243][873]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2017.12.21-12.57.30:243][873]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2017.12.21-12.57.30:243][873]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2017.12.21-12.57.30:348][873]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
+[2017.12.21-12.57.30:348][873]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X256)
+[2017.12.21-12.57.30:348][873]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X512)
+[2017.12.21-12.57.30:385][873]Lightmass on DESKTOP-E1AJGMH: 8.53 sec total, 220 ms importing, 46 ms setup, 2.27 sec photons, 5.96 sec processing, 0 ms extra exporting [52/52 mappings]. Threads: 41.6 sec total, 21.2 sec processing.
+[2017.12.21-12.57.30:401][873]LogStaticLightingSystem: Illumination: 14.3 sec (508 ms encoding lightmaps, 100 ms encoding shadowmaps)
+[2017.12.21-12.57.30:401][873]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (2.0 MB streaming, 2.0 MB non-streaming), 6 textures
+[2017.12.21-12.57.30:402][873]LogStaticLightingSystem: Shadowmap texture memory: 1.0 MB (0.3 MB streaming, 0.7 MB non-streaming), 3 textures
+[2017.12.21-12.57.30:525][873]DumpUnbuiltLightIteractions
+[2017.12.21-12.57.30:525][873]Lights with unbuilt interactions: 0
+[2017.12.21-12.57.30:525][873]
+[2017.12.21-12.57.30:525][873]Primitives with unbuilt interactions: 0
+[2017.12.21-12.57.30:533][874]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.12.21-12.57.30:533][874]MapCheck: New page: MotionControllerMap - Dec 21, 2017, 2:57:30 PM
+[2017.12.21-12.57.30:574][874]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 41.164ms to complete.
+[2017.12.21-12.57.47:103][854]LogTemp: Repeating last play command: VR Preview
+[2017.12.21-12.57.47:140][854]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.12.21-12.57.47:140][854]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.21-12.57.47:140][854]PIE: New page: PIE session: MotionControllerMap (Dec 21, 2017, 2:57:47 PM)
+[2017.12.21-12.57.47:140][854]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2017.12.21-12.57.47:148][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007682s)
+[2017.12.21-12.57.47:148][854]LogAIModule: Creating AISystem for world MotionControllerMap
+[2017.12.21-12.57.47:148][854]LogPlayLevel: PIE: World Init took: (0.000645s)
+[2017.12.21-12.57.47:148][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.008572s)
+[2017.12.21-12.57.47:162][854]LogInit: XAudio2 using 'Haut-parleurs (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.21-12.57.47:169][854]LogInit: FAudioDevice initialized.
+[2017.12.21-12.57.47:293][854]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2017.12.21-12.57.47:293][854]LogLoad: Game class is 'GameModeBase'
+[2017.12.21-12.57.47:296][854]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2017.12.21-13.57.47
+[2017.12.21-12.57.47:296][854]LogWorld: Bringing up level for play took: 0.001673
+[2017.12.21-12.57.47:329][854]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.12.21-12.57.47:331][854]LogBlueprint: Warning: SetRelativeScale3D : Invalid Scale entered (X=-nan(ind) Y=-nan(ind) Z=70.000). Resetting to 1.f.
+[2017.12.21-12.57.47:332][854]LogBlueprint: Warning: SetRelativeScale3D : Invalid Scale entered (X=-nan(ind) Y=-nan(ind) Z=70.000). Resetting to 1.f.
+[2017.12.21-12.57.47:336][854]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.067
+[2017.12.21-12.57.47:336][854]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.12.21-12.57.47:384][855]LogRenderer: Reallocating scene render targets to support 3024x1680 Format 26 NumSamples 1 (Frame:1).
+[2017.12.21-12.58.11:991][ 57]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.12.21-12.58.12:134][ 57]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2017.12.21-12.58.19:342][407]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Amur_Old01)
+[2017.12.21-12.58.20:420][535]Cmd: DELETE
+[2017.12.21-12.58.20:420][535]Cmd: ACTOR DELETE
+[2017.12.21-12.58.20:421][535]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.21-12.58.20:431][535]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.12.21-12.58.24:972][ 72]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2017.12.21-12.58.36:401][416]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Atlas_Billboards_Normal_Tex'
+[2017.12.21-12.58.36:401][416]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Atlas_Billboards_Normal_Tex' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old_Billboard_Mat.uasset.
+[2017.12.21-12.58.36:401][416]LoadErrors: Error: /Game/Assets/Amur_Old/Amur_Old_Billboard_Mat : Can't find file for asset. /Game/Amur_Old/Amur_Old_Atlas_Billboards_Normal_Tex
+[2017.12.21-12.58.36:401][416]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Atlas_Billboards_Tex'
+[2017.12.21-12.58.36:401][416]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Atlas_Billboards_Tex' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old_Billboard_Mat.uasset.
+[2017.12.21-12.58.36:401][416]LoadErrors: Error: /Game/Assets/Amur_Old/Amur_Old_Billboard_Mat : Can't find file for asset. /Game/Amur_Old/Amur_Old_Atlas_Billboards_Tex
+[2017.12.21-12.58.36:401][416]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Atlas_Billboards_Normal_Tex'
+[2017.12.21-12.58.36:401][416]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Atlas_Billboards_Normal_Tex' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old_Billboard_Mat.uasset.
+[2017.12.21-12.58.36:401][416]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Atlas_Billboards_Tex'
+[2017.12.21-12.58.36:402][416]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Atlas_Billboards_Tex' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old_Billboard_Mat.uasset.
+[2017.12.21-12.58.36:402][416]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Atlas_Billboards_Tex'
+[2017.12.21-12.58.36:402][416]LoadErrors: Failed to load /Game/Amur_Old/Amur_Old_Atlas_Billboards_Tex.Amur_Old_Atlas_Billboards_Tex Referenced by MaterialExpressionTextureSample_0
+[2017.12.21-12.58.36:403][416]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Atlas_Billboards_Tex' while loading NULL.
+[2017.12.21-12.58.36:403][416]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Atlas_Billboards_Normal_Tex'
+[2017.12.21-12.58.36:403][416]LoadErrors: Failed to load /Game/Amur_Old/Amur_Old_Atlas_Billboards_Normal_Tex.Amur_Old_Atlas_Billboards_Normal_Tex Referenced by MaterialExpressionTextureSample_1
+[2017.12.21-12.58.36:403][416]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Atlas_Billboards_Normal_Tex' while loading NULL.
+[2017.12.21-12.58.36:404][416]LogMaterial: Missing cached shader map for material Amur_Old_Billboard_Mat, compiling. 
+[2017.12.21-12.58.36:405][416]LogMaterial: Warning: Failed to compile Material /Game/Assets/Amur_Old/Amur_Old_Billboard_Mat.Amur_Old_Billboard_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.21-12.58.36:405][416]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.21-12.58.37:141][501]LogMaterial: Warning: Material /Game/Assets/Amur_Old/Amur_Old_Billboard_Mat.Amur_Old_Billboard_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.12.21-12.58.37:143][501]LogMaterial: Missing cached shader map for material Amur_Old_Billboard_Mat, compiling. 
+[2017.12.21-12.58.37:144][501]LogMaterial: Warning: Failed to compile Material /Game/Assets/Amur_Old/Amur_Old_Billboard_Mat.Amur_Old_Billboard_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.21-12.58.37:144][501]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.21-12.58.39:476][780]Cmd: TRANSACTION UNDO
+[2017.12.21-12.58.39:476][780]LogEditorTransaction: Undo Create Actors
+[2017.12.21-12.58.39:477][780]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_1' invalid (442 verts, 0 indices).
+[2017.12.21-12.58.39:478][780]LogPhysics: Warning: Attempt to build physics data for /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_1.BodySetup_1 when we are unable to.
+[2017.12.21-12.58.58:798][ 66]MapCheck: New page: Map Check
+[2017.12.21-12.58.58:822][ 66]Cmd: MAP REBUILD ALLVISIBLE
+[2017.12.21-12.58.58:822][ 66]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.12.21-12.58.58:933][ 66]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.12.21-12.58.58:937][ 66]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3, compiling. 
+[2017.12.21-12.58.58:942][ 66]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_BaseMaterial, compiling. 
+[2017.12.21-12.58.58:947][ 66]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultTextMaterialOpaque, compiling. 
+[2017.12.21-12.58.58:953][ 66]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2017.12.21-12.58.59:442][ 66]TextureStreamingBuild: Display: Compiling optional shaders took 0.513 seconds.
+[2017.12.21-12.58.59:445][ 66]LogLevel: Display: Export Material TexCoord Scales took 0.003 seconds.
+[2017.12.21-12.58.59:452][ 66]TextureStreamingBuild: Display: Build Texture Streaming took 0.007 seconds.
+[2017.12.21-12.58.59:460][ 66]LightingResults: New page: Lighting Build - Dec 21, 2017, 2:58:59 PM
+[2017.12.21-12.58.59:466][ 66]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.12.21-12.58.59:467][ 66]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.12.21-12.58.59:467][ 66]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.12.21-12.58.59:468][ 66]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.12.21-12.58.59:468][ 66]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10584
+[2017.12.21-12.59.03:982][ 66]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.12.21-12.59.03:982][ 66]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.12.21-12.59.03:983][ 66]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.12.21-12.59.03:983][ 66]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.12.21-12.59.03:983][ 66]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.12.21-12.59.04:049][ 66]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.12.21-12.59.04:050][ 66]MapCheck: New page: MotionControllerMap - Dec 21, 2017, 2:59:04 PM
+[2017.12.21-12.59.04:091][ 66]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 41.528ms to complete.
+[2017.12.21-12.59.04:113][ 66]LogEditorBuildUtils: Build time 0:05
+[2017.12.21-12.59.10:452][169]Job is a success!
+[2017.12.21-12.59.11:092][171]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.12.21-12.59.11:092][171]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.12.21-12.59.11:092][171]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2017.12.21-12.59.11:092][171]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2017.12.21-12.59.11:092][171]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2017.12.21-12.59.11:092][171]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2017.12.21-12.59.11:209][171]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2017.12.21-12.59.11:209][171]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X256)
+[2017.12.21-12.59.11:209][171]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 1024X512)
+[2017.12.21-12.59.11:226][171]Lightmass on DESKTOP-E1AJGMH: 6.31 sec total, 82 ms importing, 15 ms setup, 1.84 sec photons, 4.34 sec processing, 0 ms extra exporting [51/51 mappings]. Threads: 30.2 sec total, 9.77 sec processing.
+[2017.12.21-12.59.11:231][171]LogStaticLightingSystem: Illumination: 11.7 sec (471 ms encoding lightmaps, 113 ms encoding shadowmaps)
+[2017.12.21-12.59.11:231][171]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (2.0 MB streaming, 2.0 MB non-streaming), 6 textures
+[2017.12.21-12.59.11:232][171]LogStaticLightingSystem: Shadowmap texture memory: 1.0 MB (0.3 MB streaming, 0.7 MB non-streaming), 3 textures
+[2017.12.21-12.59.11:988][171]DumpUnbuiltLightIteractions
+[2017.12.21-12.59.11:988][171]Lights with unbuilt interactions: 0
+[2017.12.21-12.59.11:988][171]
+[2017.12.21-12.59.11:988][171]Primitives with unbuilt interactions: 0
+[2017.12.21-12.59.11:993][172]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.12.21-12.59.11:993][172]MapCheck: New page: MotionControllerMap - Dec 21, 2017, 2:59:11 PM
+[2017.12.21-12.59.12:047][172]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.647ms to complete.
+[2017.12.21-12.59.52:141][268]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old01_Atlas_Billboards_Normal_Tex'
+[2017.12.21-12.59.52:141][268]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old01_Atlas_Billboards_Normal_Tex' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old01_Billboard_Mat.uasset.
+[2017.12.21-12.59.52:141][268]LoadErrors: Error: /Game/Assets/Amur_Old/Amur_Old01_Billboard_Mat : Can't find file for asset. /Game/Amur_Old/Amur_Old01_Atlas_Billboards_Normal_Tex
+[2017.12.21-12.59.52:141][268]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old01_Atlas_Billboards_Tex'
+[2017.12.21-12.59.52:141][268]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old01_Atlas_Billboards_Tex' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old01_Billboard_Mat.uasset.
+[2017.12.21-12.59.52:142][268]LoadErrors: Error: /Game/Assets/Amur_Old/Amur_Old01_Billboard_Mat : Can't find file for asset. /Game/Amur_Old/Amur_Old01_Atlas_Billboards_Tex
+[2017.12.21-12.59.52:142][268]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old01_Atlas_Billboards_Normal_Tex'
+[2017.12.21-12.59.52:142][268]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old01_Atlas_Billboards_Normal_Tex' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old01_Billboard_Mat.uasset.
+[2017.12.21-12.59.52:142][268]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old01_Atlas_Billboards_Tex'
+[2017.12.21-12.59.52:142][268]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old01_Atlas_Billboards_Tex' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old01_Billboard_Mat.uasset.
+[2017.12.21-12.59.52:143][268]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old01_Atlas_Billboards_Tex'
+[2017.12.21-12.59.52:143][268]LoadErrors: Failed to load /Game/Amur_Old/Amur_Old01_Atlas_Billboards_Tex.Amur_Old01_Atlas_Billboards_Tex Referenced by MaterialExpressionTextureSample_0
+[2017.12.21-12.59.52:143][268]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old01_Atlas_Billboards_Tex' while loading NULL.
+[2017.12.21-12.59.52:143][268]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old01_Atlas_Billboards_Normal_Tex'
+[2017.12.21-12.59.52:143][268]LoadErrors: Failed to load /Game/Amur_Old/Amur_Old01_Atlas_Billboards_Normal_Tex.Amur_Old01_Atlas_Billboards_Normal_Tex Referenced by MaterialExpressionTextureSample_1
+[2017.12.21-12.59.52:143][268]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old01_Atlas_Billboards_Normal_Tex' while loading NULL.
+[2017.12.21-12.59.52:145][268]LogMaterial: Missing cached shader map for material Amur_Old01_Billboard_Mat, compiling. 
+[2017.12.21-12.59.52:145][268]LogMaterial: Warning: Failed to compile Material /Game/Assets/Amur_Old/Amur_Old01_Billboard_Mat.Amur_Old01_Billboard_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.21-12.59.52:145][268]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.12.21-12.59.52:147][268]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old02_Billboard_Mat'
+[2017.12.21-12.59.52:147][268]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old02_Billboard_Mat' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old02.uasset.
+[2017.12.21-12.59.52:147][268]LoadErrors: Error: /Game/Assets/Amur_Old/Amur_Old02 : Can't find file for asset. /Game/Amur_Old/Amur_Old02_Billboard_Mat
+[2017.12.21-12.59.52:147][268]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Branches_2_Mat'
+[2017.12.21-12.59.52:147][268]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Branches_2_Mat' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old02.uasset.
+[2017.12.21-12.59.52:148][268]LoadErrors: Error: /Game/Assets/Amur_Old/Amur_Old02 : Can't find file for asset. /Game/Amur_Old/Amur_Old_Branches_2_Mat
+[2017.12.21-12.59.52:148][268]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Branches_Mat'
+[2017.12.21-12.59.52:148][268]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Branches_Mat' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old02.uasset.
+[2017.12.21-12.59.52:148][268]LoadErrors: Error: /Game/Assets/Amur_Old/Amur_Old02 : Can't find file for asset. /Game/Amur_Old/Amur_Old_Branches_Mat
+[2017.12.21-12.59.52:148][268]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Leaves_Mat'
+[2017.12.21-12.59.52:148][268]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Leaves_Mat' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old02.uasset.
+[2017.12.21-12.59.52:148][268]LoadErrors: Error: /Game/Assets/Amur_Old/Amur_Old02 : Can't find file for asset. /Game/Amur_Old/Amur_Old_Leaves_Mat
+[2017.12.21-12.59.52:148][268]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old02_Billboard_Mat'
+[2017.12.21-12.59.52:148][268]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old02_Billboard_Mat' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old02.uasset.
+[2017.12.21-12.59.52:148][268]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Branches_2_Mat'
+[2017.12.21-12.59.52:148][268]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Branches_2_Mat' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old02.uasset.
+[2017.12.21-12.59.52:148][268]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Branches_Mat'
+[2017.12.21-12.59.52:149][268]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Branches_Mat' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old02.uasset.
+[2017.12.21-12.59.52:149][268]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Leaves_Mat'
+[2017.12.21-12.59.52:149][268]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Leaves_Mat' while loading ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Assets/Amur_Old/Amur_Old02.uasset.
+[2017.12.21-12.59.52:150][268]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Branches_Mat'
+[2017.12.21-12.59.52:150][268]LoadErrors: Failed to load /Game/Amur_Old/Amur_Old_Branches_Mat.Amur_Old_Branches_Mat Referenced by Amur_Old02
+[2017.12.21-12.59.52:150][268]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Branches_Mat' while loading NULL.
+[2017.12.21-12.59.52:150][268]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Branches_2_Mat'
+[2017.12.21-12.59.52:150][268]LoadErrors: Failed to load /Game/Amur_Old/Amur_Old_Branches_2_Mat.Amur_Old_Branches_2_Mat Referenced by Amur_Old02
+[2017.12.21-12.59.52:150][268]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Branches_2_Mat' while loading NULL.
+[2017.12.21-12.59.52:150][268]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Leaves_Mat'
+[2017.12.21-12.59.52:150][268]LoadErrors: Failed to load /Game/Amur_Old/Amur_Old_Leaves_Mat.Amur_Old_Leaves_Mat Referenced by Amur_Old02
+[2017.12.21-12.59.52:150][268]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Leaves_Mat' while loading NULL.
+[2017.12.21-12.59.52:151][268]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old_Leaves_Mat'
+[2017.12.21-12.59.52:151][268]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old_Leaves_Mat' while loading NULL.
+[2017.12.21-12.59.52:151][268]LogLinker: Warning: Can't find file '/Game/Amur_Old/Amur_Old02_Billboard_Mat'
+[2017.12.21-12.59.52:151][268]LoadErrors: Failed to load /Game/Amur_Old/Amur_Old02_Billboard_Mat.Amur_Old02_Billboard_Mat Referenced by Amur_Old02
+[2017.12.21-12.59.52:151][268]LogLinker: Warning: Can't find file for asset '/Game/Amur_Old/Amur_Old02_Billboard_Mat' while loading NULL.
+[2017.12.21-13.04.05:622][922]LogSavePackage: Save=109.27ms
+[2017.12.21-13.04.05:622][922]LogSavePackage: Moving '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Saved/MotionControllerMap073285434EC2FDE1996F53A0D2848103.tmp' to '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2017.12.21-13.04.05:624][922]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2017.12.21-13.04.05:649][922]LogFileHelpers: Saving map 'MotionControllerMap' took 0.196
+[2017.12.21-13.04.05:922][922]LogSavePackage: Save=205.04ms
+[2017.12.21-13.04.05:922][922]LogSavePackage: Moving '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Saved/MotionControllerMap_BuiltDataDCAD158F43F4F3FB473D55A858E82978.tmp' to '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
+[2017.12.21-13.04.05:925][922]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset
+[2017.12.21-13.04.05:993][922]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.21-13.04.06:169][923]Cmd: QUIT_EDITOR
+[2017.12.21-13.04.06:503][923]LogExit: Preparing to exit.
+[2017.12.21-13.04.07:244][923]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2017.12.21-13.04.07:244][923]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2017.12.21-13.04.07:244][923]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2017.12.21-13.04.07:247][923]LogDirectoryWatcher: A directory notification for 'C:/Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/' was aborted.
+[2017.12.21-13.04.07:261][923]LogExit: Editor shut down
+[2017.12.21-13.04.07:265][923]LogExit: Transaction tracking system shut down
+[2017.12.21-13.04.07:387][923]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.21-13.04.07:387][923]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/' was aborted.
+[2017.12.21-13.04.07:387][923]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.21-13.04.07:387][923]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.12.21-13.04.07:387][923]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.12.21-13.04.07:428][923]LogExit: Object subsystem successfully closed.
+[2017.12.21-13.04.07:453][923]LogD3D11RHI: Shutdown
+[2017.12.21-13.04.07:453][923]LogD3D11RHI: CleanupD3DDevice
+[2017.12.21-13.04.07:468][923]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.21-13.04.07:539][923]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2017.12.21-13.04.07:540][923]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (532)
+[2017.12.21-13.04.07:611][923]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (530)
+[2017.12.21-13.04.07:611][923]LogModuleManager: Shutting down and abandoning module StatsViewer (528)
+[2017.12.21-13.04.07:611][923]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2017.12.21-13.04.07:611][923]LogModuleManager: Shutting down and abandoning module AddContentDialog (524)
+[2017.12.21-13.04.07:611][923]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module WidgetCarousel (523)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module EditorWidgets (520)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module CollectionManager (518)
+[2017.12.21-13.04.07:612][923]LogDirectoryWatcher: A directory notification for 'C:/Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Collections/' was aborted.
+[2017.12.21-13.04.07:612][923]LogDirectoryWatcher: A directory notification for 'C:/Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Content/Developers/Hubinnovation/Collections/' was aborted.
+[2017.12.21-13.04.07:612][923]LogDirectoryWatcher: A directory notification for 'C:/Users/Hub-innovation/Documents/Unreal Projects/VR_Interaction/Saved/Collections/' was aborted.
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.12.21-13.04.07:612][923]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.12.21-13.04.07:613][923]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.12.21-13.04.07:613][923]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.12.21-13.04.07:613][923]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.12.21-13.04.07:613][923]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.12.21-13.04.07:613][923]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.12.21-13.04.07:613][923]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.12.21-13.04.07:613][923]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.12.21-13.04.07:613][923]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.12.21-13.04.07:693][923]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.12.21-13.04.07:693][923]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.12.21-13.04.07:693][923]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.12.21-13.04.07:693][923]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.12.21-13.04.07:693][923]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.12.21-13.04.07:693][923]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.12.21-13.04.07:693][923]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.12.21-13.04.07:693][923]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.12.21-13.04.07:693][923]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.12.21-13.04.07:693][923]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.12.21-13.04.07:693][923]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.12.21-13.04.07:693][923]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.12.21-13.04.07:693][923]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.12.21-13.04.07:693][923]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.12.21-13.04.07:693][923]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.12.21-13.04.07:693][923]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.12.21-13.04.07:693][923]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.12.21-13.04.07:693][923]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.12.21-13.04.07:693][923]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.12.21-13.04.07:693][923]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.12.21-13.04.07:693][923]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.12.21-13.04.07:693][923]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.12.21-13.04.07:693][923]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.12.21-13.04.07:693][923]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.12.21-13.04.07:748][923]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.12.21-13.04.07:748][923]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.12.21-13.04.07:748][923]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.12.21-13.04.07:748][923]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.12.21-13.04.07:748][923]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.12.21-13.04.07:748][923]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.12.21-13.04.07:748][923]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.12.21-13.04.07:748][923]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.12.21-13.04.07:748][923]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.12.21-13.04.07:748][923]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.12.21-13.04.07:749][923]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.12.21-13.04.07:749][923]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.12.21-13.04.07:749][923]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.12.21-13.04.07:749][923]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.12.21-13.04.07:749][923]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.12.21-13.04.07:749][923]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.12.21-13.04.07:749][923]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.12.21-13.04.07:749][923]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.12.21-13.04.07:749][923]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.12.21-13.04.07:749][923]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.12.21-13.04.07:749][923]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.12.21-13.04.07:749][923]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.12.21-13.04.07:749][923]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.12.21-13.04.07:749][923]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.12.21-13.04.07:749][923]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.12.21-13.04.07:749][923]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.12.21-13.04.07:749][923]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.12.21-13.04.07:749][923]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.12.21-13.04.07:750][923]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.12.21-13.04.07:750][923]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.12.21-13.04.07:750][923]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.12.21-13.04.07:977][923]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.12.21-13.04.07:977][923]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.12.21-13.04.07:977][923]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.12.21-13.04.07:977][923]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.12.21-13.04.07:977][923]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.12.21-13.04.07:977][923]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.12.21-13.04.07:977][923]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.12.21-13.04.07:977][923]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.12.21-13.04.07:977][923]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.12.21-13.04.07:977][923]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.12.21-13.04.07:977][923]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.12.21-13.04.07:977][923]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.12.21-13.04.07:977][923]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.12.21-13.04.07:977][923]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.12.21-13.04.07:977][923]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.12.21-13.04.07:977][923]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.12.21-13.04.07:977][923]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.12.21-13.04.07:977][923]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.12.21-13.04.07:977][923]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.12.21-13.04.07:977][923]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.12.21-13.04.07:977][923]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.12.21-13.04.07:978][923]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.12.21-13.04.07:978][923]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.12.21-13.04.07:978][923]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.12.21-13.04.07:978][923]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.12.21-13.04.07:978][923]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.12.21-13.04.07:978][923]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.12.21-13.04.07:978][923]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.12.21-13.04.07:978][923]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.12.21-13.04.07:978][923]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.12.21-13.04.07:978][923]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.12.21-13.04.07:978][923]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.12.21-13.04.07:978][923]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.12.21-13.04.07:978][923]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.12.21-13.04.07:978][923]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.12.21-13.04.07:979][923]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.12.21-13.04.07:979][923]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.12.21-13.04.07:979][923]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.12.21-13.04.07:979][923]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.12.21-13.04.07:979][923]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.12.21-13.04.07:979][923]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.12.21-13.04.07:979][923]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.12.21-13.04.07:979][923]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.12.21-13.04.08:079][923]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.12.21-13.04.08:179][923]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.12.21-13.04.08:179][923]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.12.21-13.04.08:179][923]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.12.21-13.04.08:179][923]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.12.21-13.04.08:179][923]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.12.21-13.04.08:179][923]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.12.21-13.04.08:180][923]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.12.21-13.04.08:180][923]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.12.21-13.04.08:180][923]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.12.21-13.04.08:180][923]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.12.21-13.04.08:180][923]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.12.21-13.04.08:180][923]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.12.21-13.04.08:180][923]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.12.21-13.04.08:180][923]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.12.21-13.04.08:180][923]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.12.21-13.04.08:180][923]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.12.21-13.04.08:180][923]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.12.21-13.04.08:180][923]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.12.21-13.04.08:180][923]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.12.21-13.04.08:180][923]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.12.21-13.04.08:180][923]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.12.21-13.04.08:180][923]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.12.21-13.04.08:180][923]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.12.21-13.04.08:180][923]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.12.21-13.04.08:180][923]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.12.21-13.04.08:180][923]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.12.21-13.04.08:180][923]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.12.21-13.04.08:180][923]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.12.21-13.04.08:180][923]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.12.21-13.04.08:180][923]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.12.21-13.04.08:182][923]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.12.21-13.04.08:182][923]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.12.21-13.04.08:182][923]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.12.21-13.04.08:182][923]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.12.21-13.04.08:182][923]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.12.21-13.04.08:182][923]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.12.21-13.04.08:182][923]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.12.21-13.04.08:182][923]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.12.21-13.04.08:182][923]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.12.21-13.04.08:182][923]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.12.21-13.04.08:182][923]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.12.21-13.04.08:182][923]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.12.21-13.04.08:182][923]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.12.21-13.04.08:182][923]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.12.21-13.04.08:182][923]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.12.21-13.04.08:182][923]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.12.21-13.04.08:183][923]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.12.21-13.04.08:254][923]LogDerivedDataCache: Shutdown
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.12.21-13.04.08:254][923]LogOnline: Display: Unloading online subsystem: NULL
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.12.21-13.04.08:254][923]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.12.21-13.04.08:254][923]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.12.21-13.04.08:254][923]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF378D6AC-4E43-A7DE-9FF8-4D8E97345DBC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=90a2bdb54d27b93006d18a9d18a7861e%7C9e374c204ae84ce7bf82a048a671d7bd%7Ca055ffbf-20cd-489f-9d46-e369275821ba&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.21-13.04.08:277][923]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.12.21-13.04.08:278][923]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.12.21-13.04.08:278][923]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.12.21-13.04.08:278][923]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.12.21-13.04.08:278][923]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.12.21-13.04.08:278][923]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.12.21-13.04.08:278][923]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.12.21-13.04.08:278][923]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.12.21-13.04.08:279][923]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.12.21-13.04.08:279][923]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.12.21-13.04.08:279][923]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.12.21-13.04.08:279][923]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.12.21-13.04.08:279][923]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.12.21-13.04.08:279][923]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.12.21-13.04.08:279][923]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.12.21-13.04.08:279][923]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.12.21-13.04.08:279][923]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.21-13.04.08:279][923]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.21-13.04.08:279][923]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.21-13.04.08:281][923]LogExit: Exiting.
+[2017.12.21-13.04.08:294][923]Log file closed, 12/21/17 14:04:08
